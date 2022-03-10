@@ -1,0 +1,20 @@
+.header {
+    background: #0f1c30;
+    margin-bottom: 25px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+body {
+    background: #082452;
+}
+
+.text-muted {
+    background: #09172c;
+}
+
+.body-blue {
+    background: #082452;
+}

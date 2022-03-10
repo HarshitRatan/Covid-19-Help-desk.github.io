@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Active-Cases</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/icon.png" rel="icon">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/active-cases.css">
+</head>
+
+<body>
+    <script src="js/active-cases.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <div class="header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand offset-lg-2" href="#" style="color:rgb(255, 208, 1); font-size: 25px;"><b>COVID-19-HELP-DESK</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="background: rgb(238, 203, 48)">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="index.html"><b style="color:whitesmoke;">HOME</b></a>
+                        <a class="nav-link" href="updates.html"><b style="color:whitesmoke;">UPDATES</b></a>
+                        <a class="nav-link" href="contact.html"><b style="color:whitesmoke;">CONTACT US</b></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="boby-blue">
+        <nav aria-label="breadcrumb" style="margin-left: 30px;">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" style=" color: rgb(214, 201, 18);">Home</a></li>
+                <li class="breadcrumb-item"><a href="updates.html" style=" color: rgb(214, 201, 18);">Updates</a></li>
+                <li class="breadcrumb-item active" aria-current="page" style=" color: rgb(214, 201, 18);">Active-Cases</li>
+            </ol>
+        </nav>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+            <h2 style="color: rgb(214, 201, 18);"> <span id="country"></h2>
+            <span> <img src="" class="country-img" id="flag"></span>
+        </div>
+        <div class="row text-center white" style="margin-top: 50px;;">
+            <div class="col-4 bor">
+                <i class="fa fa-tachometer"></i>
+                <h5 style="color: black;">Active Cases</h5>
+                <span id="active"></span>
+            </div>
+            <div class="col-4 bor">
+                <i class="fa fa-th-list"></i>
+                <h5 style="color: brown;">Total Cases</h5>
+                <span id="cases"></span>
+            </div>
+            <div class="col-4 bor">
+                <i class="fa fa-times-circle"></i>
+                <h5 style="color: black;">Critical Cases</h5>
+                <span id="critical"></span>
+            </div>
+        </div>
+        <div class="row text-center white" style="margin-top: 25px;;">
+            <div class="col-4 bor">
+                <i class="fa fa-times"></i>
+                <h5 style="color: red;">Total Deaths</h5>
+                <span id="death"></span></div>
+            <div class="col-4 bor">
+                <i class="fa fa-check-square-o"></i>
+                <h5 style="color: green;">Recovered</h5>
+                <span id="recovered"></span></div>
+            <div class="col-4 bor">
+                <i class="fa fa-eye"></i>
+                <h5 style="color: black;">Total Testes Done</h5>
+                <span id="tests"></span></div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center text-lg-start text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block" style="color:whitesmoke;">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/harshitratanshuklaa/" target="_blank">
+                    <img src="img/facebook.jpg">
+                </a>
+                <a href="https://www.linkedin.com/in/harshitratanshuklaa/" target="_blank">
+                    <img src="img/twitter.jpg">
+                </a>
+                <a href="https://www.linkedin.com/in/harshitratanshuklaa/" target="_blank">
+                    <img src="img/instagram.jpg">
+                </a>
+                <a href="https://www.linkedin.com/in/harshitratanshuklaa/" target="_blank">
+                    <img src="img/gmail.jpg">
+                </a>
+                <a href="https://www.linkedin.com/in/harshitratanshuklaa/" target="_blank">
+                    <img src="img/linked-in.jpg">
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3" style="color:whitesmoke;">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4" style="color:rgb(255, 209, 6);">
+                            COVID-19-HELP-DESK
+                        </h6>
+                        <p>
+                            Central Helpline Number <br>+91-11-23978046<br>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4" style="color:rgb(255, 209, 6);">
+                            Quick links
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">HOME</a>
+                        </p>
+                        <p>
+                            <a href="updates.html" class="text-reset">UPDATES</a>
+                        </p>
+                        <p>
+                            <a href="contact.html" class="text-reset">CONTACT US</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4" style="color:rgb(255, 209, 6);">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="https://selfregistration.cowin.gov.in/" target="_blank" class="text-reset">COWIN
+                                vaccine Registration</a>
+                        </p>
+                        <p>
+                            <a href="active-cases.html" class="text-reset">Active Cases</a>
+                        </p>
+                        <p>
+                            <a href="vaccine-info.html" class="text-reset">Vaccine Information</a>
+                        </p>
+                        <p>
+                            <a href="https://www.cowin.gov.in/" target="_blank" class="text-reset">Covid Vaccine
+                                Centers</a>
+                        </p>
+                        <p>
+                            <a href="https://www.google.com/maps/" target="_blank" class="text-reset">RTPCR Testing Labs
+                                on Map</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4" style="color:rgb(255, 209, 6);">
+                            Contact Us
+                        </h6>
+                        <p>harshitratanshukla@gmail.com</p>
+                        <p> Whatsaap Number : <br> +91 9415093948</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="#">COVID-19-HELP-DESK</a>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

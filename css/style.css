@@ -1,0 +1,47 @@
+img {
+    max-height: 400px;
+}
+
+body {
+    background: #082452;
+}
+
+.overview {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header {
+    background: #0f1c30;
+    margin-bottom: 0px;
+}
+
+.card {
+    width: 15rem;
+    height: 30rem;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.ww {
+    width: 14rem;
+    height: 32rem;
+    background: rgb(238, 234, 234);
+    box-shadow: -5px -5px 5px rgb(162, 160, 165);
+    transition: all 0.5s;
+}
+
+.ww:hover {
+    background-color: white;
+    transform: scale(1.06) translateY(-15px);
+}
+
+.text-muted {
+    background: #09172c;
+}
+
+.blue-body {
+    box-shadow: inset 1000px 1000px rgba(8, 36, 82, 0.3);
+}

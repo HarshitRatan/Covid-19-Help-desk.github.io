@@ -1,0 +1,40 @@
+.header {
+    background: #0f1c30;
+    margin-bottom: 25px;
+}
+
+body {
+    background: #082452;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.ss {
+    margin: 20px;
+}
+
+.btn {
+    border: 2px solid black;
+}
+
+.text-muted {
+    background: #09172c;
+}
+
+.body-blue {
+    background: #082452;
+}
+
+.card {
+    width: 12rem;
+    background: rgb(238, 234, 234);
+    box-shadow: -5px -5px 5px rgba(162, 160, 120);
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    background-color: white;
+    transform: scale(1.08) translateY(-15px);
+}

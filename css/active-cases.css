@@ -1,0 +1,40 @@
+body {
+    background: #082452;
+}
+
+.header {
+    background: #0f1c30;
+    margin-bottom: 0px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.text-muted {
+    background: #09172c;
+}
+
+.boby-blue {
+    margin-top: 25px;
+}
+
+.white {
+    color: black;
+}
+
+.bor {
+    border: 1px solid whitesmoke;
+    background-color: rgb(192, 187, 187);
+    /* border-radius: 50%; */
+    transition: all 0.5s;
+}
+
+.bor:hover {
+    background-color: white;
+}
+
+.country-img {
+    max-width: 100px;
+    max-height: 100px;
+}
